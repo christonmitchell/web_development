@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #e3f0ff 0%, #a0c4ff 100%);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 520px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 32px 28px 28px 28px;
+    border-radius: 18px;
+    box-shadow: 0 6px 24px rgba(25, 118, 210, 0.10);
+}
+
+/*-------- HEADER --------*/
+#main-header {
+    background: #1976d2;
+    color: #fff;
+    padding: 24px 0 16px 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 4px 16px rgba(25, 118, 210, 0.15);
+}
+
+#header-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+/*-------- MAIN CONTENT --------*/
+#main {
+    border: 1px solid rgb(180, 180, 180);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.title {
+    color: #1976d2;
+    font-size: 1.4rem;
+    margin-bottom: 12px;
+    margin-top: 0;
+    letter-spacing: 1px;
+}
+
+.title:first-child {
+    margin-top: 0px;
+}
+
+input {
+    height: 30px;
+    border: 1px solid rgb(180, 180, 180);
+}
+
+.btn {
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn:hover {
+    background: #1565c0;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 10px;
+    border-bottom: 1px solid #e3f0ff;
+    background: #f6fbff;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    font-size: 1.08rem;
+}
+
+.list-group-item:last-child {
+    margin-bottom: 10px;
+}
+
+#book-form {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+
+#book-form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1.5px solid #90caf9;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #f0f7ff;
+    transition: border 0.2s;
+}
+
+#book-form input[type="text"]:focus {
+    border: 1.5px solid #1976d2;
+    outline: none;
+}
+
+.list-group {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.remove {
+    background: #e53935;
+    color: #fff;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.remove:hover {
+    background: #b71c1c;
+}
